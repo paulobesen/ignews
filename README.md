@@ -1,5 +1,5 @@
 <h1 align="center">
-  RocketShop!
+  Ig.News blog!
 </h1>
 
 <p align="center">
@@ -50,6 +50,25 @@ Para testes em desenvolvimento, o Stripe conta com um webhook que pode ser rodad
 
 
 Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
+
+## 🚀 Você também precisará criar o arquivo .env.local com as tags abaixo:
+```# stripe
+STRIPE_API_KEY=xxxxx
+NEXT_PUBLIC_STRIPE_PUBLIC_KEY=xxxxx
+STRIPE_WEBHOOK_SECRET=xxxxx
+STRIPE_SUCCESS_URL=xxxxx
+STRIPE_CANCEL_URL=xxxxx
+
+# github
+GITHUB_CLIENT_ID=xxxxx
+GITHUB_CLIENT_SECRET=xxxxx
+
+# faunaDB
+FAUNADB_KEY=xxxxx
+
+# prismic CMS
+PRISMIC_ENDPOINT=xxxxx
+PRISMIC_ACCESS_TOKEN=xxxxx```
 
 ## 📄 Licença
 
